@@ -1,14 +1,18 @@
-### SYNCHRONOUS-UP-COUNTER
+# SYNCHRONOUS-UP-COUNTER
 
-**AIM:**
+# NAME : ANTONY ABISHEK 
+
+# REGISTER NUMBER : 212223240009
+
+# AIM:
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+# SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+# THEORY
 
 **4 bit synchronous UP Counter**
 
@@ -26,21 +30,38 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+# Procedure
 
-/* write all the steps invloved */
+1.Initialize the shift register to a known state (e.g., all zeros).
 
-**PROGRAM**
+2.Input a bit serially into the shift register.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+3.Shift the contents of the register one position to the right (or left).
 
-Developed by: RegisterNumber:
-*/
+4.Output the shifted bit from the last stage of the register.
+
+5.Repeat steps 2-4 for each bit you want to input and shift.
+
+# PROGRAM
+
+DEVELOPED BY : ANTONY ABISHEK 
+
+REGISTER NUMBER : 212223240009
+
+![image](https://github.com/user-attachments/assets/83bffd92-94c3-4d44-a5b2-68c66f9d5ab8)
 
 **RTL LOGIC UP COUNTER**
 
+![image](https://github.com/user-attachments/assets/2b527a6c-794a-4224-a0d2-9296c8b74acd)
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+![image](https://github.com/user-attachments/assets/49d3d6c5-d78b-4390-b831-320eccac9b5f)
 
 **TRUTH TABLE**
 
-**RESULTS**
+![image](https://github.com/user-attachments/assets/f791ef67-2e8a-4cc4-9d75-2019ac23cf1f)
+
+# RESULTS
+
+Hence a 4 bit synchronous up counter is implemented correctly
